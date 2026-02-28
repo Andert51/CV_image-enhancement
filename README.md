@@ -15,7 +15,7 @@ A modular image-processing pipeline that implements **histogram equalization**, 
 
 ---
 
-## ✨ Features
+## Features
 
 | Module | What it does |
 |--------|-------------|
@@ -27,7 +27,7 @@ All results are saved automatically to `data/output/` with clean naming conventi
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 T1_MejoraImagenes/
@@ -58,7 +58,7 @@ T1_MejoraImagenes/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1 · Clone & create virtual environment
 
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🖥️ Usage
+## Usage
 
 ```
 python main.py [OPTIONS] COMMAND
@@ -123,9 +123,9 @@ python main.py transform --help
 
 ---
 
-## 🔬 Module Details
+## Module Details
 
-### 📊 Module 1 — Histogram Equalization
+### Module 1 — Histogram Equalization
 
 Implements histogram equalization using the CDF-derived look-up table:
 
@@ -135,7 +135,7 @@ Also applies **CLAHE** (`cv2.createCLAHE`) for adaptive local contrast enhanceme
 
 ---
 
-### 🌗 Module 2 — Point-Intensity Transformations
+### Module 2 — Point-Intensity Transformations
 
 Three intensity mappings $s = T(r)$, all operating on 8-bit grayscale images:
 
@@ -153,7 +153,7 @@ Outputs a 2×5 comparison grid plus a $T(r)$ curves panel.
 
 ---
 
-### 🎨 Module 3 — Color Space Conversions
+### Module 3 — Color Space Conversions
 
 Converts BGR images to three color spaces and exports each channel individually:
 
@@ -167,7 +167,7 @@ Each conversion produces per-channel images plus a 2×4 comparison figure.
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Library | Min. Version | Purpose |
 |---------|-------------|---------|
@@ -181,7 +181,7 @@ Each conversion produces per-channel images plus a 2×4 comparison figure.
 
 ---
 
-## 📖 Reference
+## Reference
 
 > Gonzalez, R. C., & Woods, R. E. (2018). *Digital Image Processing* (4th ed.). Pearson.
 > — Sections 3.2 (intensity transformations) and 3.3 (histogram processing).
