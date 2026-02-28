@@ -1,5 +1,5 @@
 # Output Files in Data directory
-/data/output/*
+#/data/output/*
 # Ignore Python bytecode files
 __pycache__/   
 *.pyc
