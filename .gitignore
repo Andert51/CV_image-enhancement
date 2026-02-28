@@ -1,0 +1,27 @@
+# Output Files in Data directory
+/data/output/*
+# Ignore Python bytecode files
+__pycache__/   
+*.pyc
+*.pyo
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore virtual environment directories
+venv/
+env/
+# Ignore log files
+*.log
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore IDE specific files
+.vscode/
+.idea/
+# Ignore other temporary files
+*.tmp
+*.bak
+*.swp   
+# Ignore coverage reports
+coverage/
+# Ignore test results
+test_results/

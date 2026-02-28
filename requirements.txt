@@ -1,0 +1,33 @@
+# -----------------------------------------------------------------------
+# requirements.txt
+# Proyecto: Mejora de Imagenes - Vision por Computadora
+# Python >= 3.10
+# -----------------------------------------------------------------------
+
+# Procesamiento de imagenes y vision por computadora
+opencv-python>=4.8.0
+
+# Computo cientifico y operaciones matriciales
+numpy>=1.26.0
+
+# Visualizacion de datos y generacion de figuras
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Procesamiento adicional de imagenes (CLAHE avanzado, metricas)
+scikit-image>=0.22.0
+
+# Procesamiento cientifico avanzado
+scipy>=1.11.0
+
+# Interfaz de linea de comandos
+typer[all]>=0.9.0
+
+# Tipado estatico en tiempo de ejecucion
+typing-extensions>=4.8.0
+
+# Soporte para rutas del sistema operativo
+pathlib2>=2.3.7
+
+# Pillow para lectura de formatos TIFF y otros
+Pillow>=10.0.0
